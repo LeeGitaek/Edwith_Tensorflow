@@ -8,7 +8,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 # 동물 데이터 불러오기
-xy = np.loadtxt('/Users/gitaeklee/PycharmProjects/untitled2/data-04-zoo.csv', delimiter = ',', dtype = np.float32)
+xy = np.loadtxt('./data-04-zoo.csv', delimiter = ',', dtype = np.float32)
 x_data = xy[:, 0:-1]
 y_data = xy[:, [-1]]
 
